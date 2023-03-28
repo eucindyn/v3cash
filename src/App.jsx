@@ -1,7 +1,8 @@
 import React from "react";
+import IconLogo from "./components/IconLogo";
 
 const App = () => {
-  return <h1>App</h1>;
+  return <IconLogo />;
 };
 
 export default App;
