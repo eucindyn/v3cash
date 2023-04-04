@@ -10,7 +10,7 @@ const Base = createGlobalStyle`
     font-display: swap;
 }
 
-@font-face {
+  @font-face {
     font-family: 'mago1';
     src: url('fonts/mago1.woff2') format('woff2'),
         url('fonts/mago1.woff') format('woff');
@@ -19,7 +19,7 @@ const Base = createGlobalStyle`
     font-display: swap;
 }
 
-@font-face {
+  @font-face {
     font-family: 'mago2';
     src: url('fonts/mago2.woff2') format('woff2'),
         url('fonts/mago2.woff') format('woff');
@@ -27,6 +27,10 @@ const Base = createGlobalStyle`
     font-style: normal;
     font-display: swap;
 }
+ 
+  html {
+    font-size: 10px;
+  }
 
   body {
     background-color: var(--color-bg);

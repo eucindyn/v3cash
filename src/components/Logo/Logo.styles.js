@@ -7,6 +7,7 @@ const Logo = styled.figure`
   align-items: center;
   gap: 0.5rem;
   color: var(--color-txt);
+  font-size: 3rem;
 `;
 
 export default {
