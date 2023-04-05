@@ -5,6 +5,8 @@ const Button = styled.button`
   border: none;
   font-family: inherit;
   font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 `
 
 export default Button;
