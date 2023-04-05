@@ -5,6 +5,7 @@ const Colors = createGlobalStyle`
   --color-bg: #A4C263;
   --color-txt: #C87C86;
   --color-border: #664165;
+  --color-btn: #E8CFA6;
  }
 `;
 

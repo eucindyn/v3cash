@@ -1,6 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 
 const Base = createGlobalStyle`
+  :root {
+    font-size: 10px;
+  }
+
   @font-face {
     font-family: 'mago3';
     src: url('fonts/mago3.woff2') format('woff2'),
@@ -8,7 +12,7 @@ const Base = createGlobalStyle`
     font-weight: 500;
     font-style: normal;
     font-display: swap;
-}
+  }
 
   @font-face {
     font-family: 'mago1';
@@ -17,7 +21,7 @@ const Base = createGlobalStyle`
     font-weight: 500;
     font-style: normal;
     font-display: swap;
-}
+  }
 
   @font-face {
     font-family: 'mago2';
@@ -26,10 +30,6 @@ const Base = createGlobalStyle`
     font-weight: 500;
     font-style: normal;
     font-display: swap;
-}
- 
-  html {
-    font-size: 10px;
   }
 
   body {
